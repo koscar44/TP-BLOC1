@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+<header>
+	<script type="text/javascript" src="./js/app.js"></script>
+	<link rel="stylesheet"  href="./css/style.css">
+</header>
+<body>
+	<div class="contenu">
+		<div class="entete">
+			<section>Donnez nous votre age</section>
+		</div>
+		<div class="instructions"> Suivez les instructions</div>
+		<div id="message-success" class="message-success cachee">Bonjour Marc vous êtes né en 2000</div>
+		<div id="message-error" class="message-error cachee"> Champs vide ou votre âge n'est pas un nombre</div>
+		<div class="formulaire">
+			<fieldset>
+				<legend>Saisir vontre age </legend>
+				<div class="champ-formulaire">
+					<label for="age">Age *</label>
+					<input type="text" id="age" name="age" placeholder="Votre âge">
+				</div>
+				<div class="champ-formulaire">
+					<label for="prenom">Prénom *</label>
+					<input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+				</div>
+				<div>
+					<button onclick="validerFormulaire()">Valider le formulaire</button>
+				</div>
+
+			</fieldset>
+		</div>
+
+	</div>
+	<footer>&copy; GiusMili front developer - 2021</footer>
+</body>
+</html>
